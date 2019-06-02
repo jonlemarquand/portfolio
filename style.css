@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F9FB
+}
+
+#container {
+    display: grid;
+    grid-template-areas: "navbar content" "social-footer social-footer";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 5fr 1fr;
+}
